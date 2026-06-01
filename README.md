@@ -255,18 +255,6 @@ What I like building:
 
 ---
 
-## `github_stats`
-
-<div align="center">
-
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=joshuamendozaa&show_icons=true&theme=transparent&hide_border=true&title_color=00FF9C&icon_color=00FF9C&text_color=C9D1D9" />
-
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=joshuamendozaa&layout=compact&theme=transparent&hide_border=true&title_color=00FF9C&text_color=C9D1D9" />
-
-</div>
-
----
-
 ## `current_signal`
 
 ```txt
