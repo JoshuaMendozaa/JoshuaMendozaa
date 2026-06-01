@@ -12,7 +12,7 @@
 
 ## `whoami`
 
-I am an ** AI Software Engineer** focused on building backend systems around LLMs, agents, RAG pipelines, tool-call tracing, guardrails, and evaluation infrastructure.
+I am an **AI Software Engineer** focused on building backend systems around LLMs, agents, RAG pipelines, tool-call tracing, guardrails, and evaluation infrastructure.
 
 My goal is to build AI systems that are not just demos — but systems that can be **observed, tested, debugged, and deployed**.
 
@@ -63,6 +63,10 @@ What it does:
 -Includes pytest testing and GitHub Actions CI/CD
 ```
 #### Stack: <p align="center"> <img src="https://img.shields.io/badge/Python-0D1117?style=for-the-badge&logo=python&logoColor=00FF9C" />, <img src="https://img.shields.io/badge/FastAPI-0D1117?style=for-the-badge&logo=fastapi&logoColor=00FF9C" />, <img src="https://img.shields.io/badge/WebSockets-0D1117?style=for-the-badge&logoColor=00FF9C" />, <img src="https://img.shields.io/badge/PostgreSQL-0D1117?style=for-the-badge&logo=postgresql&logoColor=00FF9C" />, <img src="https://img.shields.io/badge/InfluxDB-0D1117?style=for-the-badge&logo=influxdb&logoColor=00FF9C" />, <img src="https://img.shields.io/badge/Redis-0D1117?style=for-the-badge&logo=redis&logoColor=00FF9C" />, <p align="center"> <img src="https://img.shields.io/badge/Docker-0D1117?style=for-the-badge&logo=docker&logoColor=00FF9C" />, <img src="https://img.shields.io/badge/pytest-0D1117?style=for-the-badge&logo=pytest&logoColor=00FF9C" />, <img src="https://img.shields.io/badge/OpenAI-0D1117?style=for-the-badge&logo=openai&logoColor=00FF9C" />, <img src="https://img.shields.io/badge/Ollama-0D1117?style=for-the-badge&logo=ollama&logoColor=00FF9C" />
+
+## `github_stats`
+
+<div align="center"> <img height="165" src="https://github-readme-stats.vercel.app/api?username=JoshuaMendozaa&show_icons=true&theme=github_dark&hide_border=true&title_color=00FF9C&icon_color=00FF9C" /> <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=JoshuaMendozaa&layout=compact&theme=github_dark&hide_border=true&title_color=00FF9C" /> </div>
 
 
 
