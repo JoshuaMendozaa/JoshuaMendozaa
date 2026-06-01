@@ -12,7 +12,7 @@
 
 ## `whoami`
 
-I’m an **AI Software Engineer** focused on building backend systems around LLMs, agents, RAG pipelines, tool-call tracing, guardrails, and evaluation infrastructure.
+I am an ** AI Software Engineer** focused on building backend systems around LLMs, agents, RAG pipelines, tool-call tracing, guardrails, and evaluation infrastructure.
 
 My goal is to build AI systems that are not just demos — but systems that can be **observed, tested, debugged, and deployed**.
 
@@ -48,7 +48,22 @@ Real-time LLM benchmarking platform where multiple models compete on standardize
 
 ```txt
 Prompt → Multiple LLMs → Judge Evaluation → Metrics → Live Leaderboard
-```
 
-tech_stack
+What it does:
+
+-Runs parallel model responses using async FastAPI endpoints
+-Streams live results through WebSockets
+-Uses an LLM-as-a-Judge evaluation system based on MT-Bench-style scoring
+-Scores responses across correctness, reasoning, completeness, conciseness, and coherence
+-Runs local model inference through Ollama with models like DeepSeek, Llama, and Mistral
+-Stores model metadata in PostgreSQL
+-Stores benchmark metrics in InfluxDB
+-Uses Redis caching to reduce leaderboard latency from ~150ms to under 1ms
+-Containerized with Docker Compose
+-Includes pytest testing and GitHub Actions CI/CD
+```
+#### Stack: <p align="center"> <img src="https://img.shields.io/badge/Python-0D1117?style=for-the-badge&logo=python&logoColor=00FF9C" />, FastAPI, WebSockets, PostgreSQL, InfluxDB, Redis, Docker Compose, pytest, GitHub Actions, Ollama
+
+
+## `tech_stack`
 <p align="center"> <img src="https://img.shields.io/badge/Python-0D1117?style=for-the-badge&logo=python&logoColor=00FF9C" /> <img src="https://img.shields.io/badge/C++-0D1117?style=for-the-badge&logo=cplusplus&logoColor=00FF9C" /> <img src="https://img.shields.io/badge/JavaScript-0D1117?style=for-the-badge&logo=javascript&logoColor=00FF9C" /> <img src="https://img.shields.io/badge/SQL-0D1117?style=for-the-badge&logo=postgresql&logoColor=00FF9C" /> </p> <p align="center"> <img src="https://img.shields.io/badge/FastAPI-0D1117?style=for-the-badge&logo=fastapi&logoColor=00FF9C" /> <img src="https://img.shields.io/badge/Node.js-0D1117?style=for-the-badge&logo=nodedotjs&logoColor=00FF9C" /> <img src="https://img.shields.io/badge/Express.js-0D1117?style=for-the-badge&logo=express&logoColor=00FF9C" /> <img src="https://img.shields.io/badge/WebSockets-0D1117?style=for-the-badge&logoColor=00FF9C" /> <img src="https://img.shields.io/badge/REST%20APIs-0D1117?style=for-the-badge&logoColor=00FF9C" /> </p> <p align="center"> <img src="https://img.shields.io/badge/PostgreSQL-0D1117?style=for-the-badge&logo=postgresql&logoColor=00FF9C" /> <img src="https://img.shields.io/badge/MySQL-0D1117?style=for-the-badge&logo=mysql&logoColor=00FF9C" /> <img src="https://img.shields.io/badge/MongoDB-0D1117?style=for-the-badge&logo=mongodb&logoColor=00FF9C" /> <img src="https://img.shields.io/badge/InfluxDB-0D1117?style=for-the-badge&logo=influxdb&logoColor=00FF9C" /> <img src="https://img.shields.io/badge/Redis-0D1117?style=for-the-badge&logo=redis&logoColor=00FF9C" /> </p> <p align="center"> <img src="https://img.shields.io/badge/Docker-0D1117?style=for-the-badge&logo=docker&logoColor=00FF9C" /> <img src="https://img.shields.io/badge/Docker%20Compose-0D1117?style=for-the-badge&logo=docker&logoColor=00FF9C" /> <img src="https://img.shields.io/badge/GitHub%20Actions-0D1117?style=for-the-badge&logo=githubactions&logoColor=00FF9C" /> <img src="https://img.shields.io/badge/pytest-0D1117?style=for-the-badge&logo=pytest&logoColor=00FF9C" /> <img src="https://img.shields.io/badge/Linux-0D1117?style=for-the-badge&logo=linux&logoColor=00FF9C" /> </p> <p align="center"> <img src="https://img.shields.io/badge/OpenAI-0D1117?style=for-the-badge&logo=openai&logoColor=00FF9C" /> <img src="https://img.shields.io/badge/Ollama-0D1117?style=for-the-badge&logo=ollama&logoColor=00FF9C" /> <img src="https://img.shields.io/badge/MCP-0D1117?style=for-the-badge&logoColor=00FF9C" /> <img src="https://img.shields.io/badge/Claude%20Code-0D1117?style=for-the-badge&logo=anthropic&logoColor=00FF9C" /> <img src="https://img.shields.io/badge/GitHub%20Copilot-0D1117?style=for-the-badge&logo=githubcopilot&logoColor=00FF9C" /> </p>
