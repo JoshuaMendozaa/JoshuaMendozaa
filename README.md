@@ -31,3 +31,11 @@ An AI agent observability platform for tracing, evaluating, and debugging LLM ag
 │ Stack: Python · FastAPI · PostgreSQL · Redis · Docker │
 │ Goal: Debuggable, production-grade AI systems         │
 └───────────────────────────────────────────────────────┘
+
+[01] Trace prompts, responses, tool calls, latency, cost, and failures
+[02] Evaluate RAG answers for faithfulness and retrieval quality
+[03] Log MCP tool-call behavior
+[04] Detect unsafe, low-confidence, or unsupported outputs
+[05] Visualize agent behavior through a debugging dashboard
+[06] Deploy with Docker and AWS
+```
